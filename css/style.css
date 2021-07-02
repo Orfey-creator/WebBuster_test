@@ -1,0 +1,99 @@
+.image {
+  margin: 15px 0;
+  max-width: 450px;
+}
+
+.list {
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+.card-image {
+  width: 250px;
+}
+
+.card-title {
+  font-weight: normal;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.card-price {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-btn {
+  background-color: #F13B6D;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 15px;
+  min-width: 35%;
+}
+
+.card-btn:hover, .card-btn:active, .card-btn:focus {
+  opacity: 0.6;
+}
+
+label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 80%;
+  margin: 10px 0;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-btn {
+  margin-top: 25px;
+}
+/*# sourceMappingURL=style.css.map */
